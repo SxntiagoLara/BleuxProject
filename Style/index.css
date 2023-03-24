@@ -243,6 +243,52 @@ footer{
     height: 25px;
     margin: -5px 0px;
 }
+@media screen and (max-width:1200px) {
+    #principal{
+        width: 1200px;
+    }
+    .sec1{
+        width: 1200px;
+    }
+    .sec1 h1{
+        font-size: 90px;
+    }
+    .iz{
+        margin-left: 0;
+    }
+    .text{
+        margin: 0px 40px;
+    }
+    .phone{
+        width: 50%;
+    }
+    .phone img{
+        width: 30vh;
+        height: 55vh;
+    }
+    .sec2{
+        font-size: 35px;
+        line-height: 20px;
+        height: 45vh;
+    }
+    .color{
+        font-size: 45px;
+        margin: 30px 0px;
+    }
+    .sec3{
+       padding: 0px 20px;
+       height: 80vh;
+    }
+    .top{
+        padding:30px 0px;
+        font-size: 35px;
+        height: 29vh;
+    }
+    #ofertas{
+        width: 60vh;
+        height: 40vh;
+    }
+}
 
 
 @media screen and (max-width:992px){
@@ -298,6 +344,9 @@ footer{
         flex-flow: column nowrap;
         height: 15vh;
     }
+    .ofert{
+        line-height: 35px;
+    }
     .bt1{
         background-color: #1e172fa4 ;
         width: 100%;
@@ -320,7 +369,7 @@ footer{
     }
     .sec2{
         width: 992px;
-        height: 37vh;
+        height: 45vh;
     }
     .ofert{
         margin: 0;
@@ -440,7 +489,7 @@ footer{
     }
     #ofertas{
         margin: 20px 27px;   
-        width:65vh;
+        width:45vh;
         height: 75vh;
         font-size: 25px;
     }
